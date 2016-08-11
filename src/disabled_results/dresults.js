@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	//Chosen
+  //Chosen
   $(".choiceChosen, .productChosen").chosen({});
   //Logic
   $(".choiceChosen").change(function(){
