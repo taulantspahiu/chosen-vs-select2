@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  function setCurrency (currency) {
-	  if (!currency.id) { return currency.text; }
+  	function setCurrency (currency) {
+		if (!currency.id) { 
+			return currency.text; 
+		}
 		var $currency = $('<span class="glyphicon glyphicon-' + currency.element.value + '">' + currency.text + '</span>');
 		return $currency;
 	};
