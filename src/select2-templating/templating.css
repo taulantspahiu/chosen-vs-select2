@@ -1,0 +1,10 @@
+.templatingSelect2 {
+  	width: 300px;
+}
+h4 {
+  	margin-left: 10px;
+}
+.select2-selection__rendered {
+	height: 25px !important;
+	margin-top: 2px !important;
+}
